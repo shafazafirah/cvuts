@@ -86,8 +86,8 @@ nav a {
 
 /* Layout Utama (2 Kolom sesuai sketsa) */
 .main-content {
-    display: grid;
-    grid-template-colums: 1fr 1fr;
+    display: grid; 
+    grid-template-colums:1fr 1fr;
     gap: 20px
 }
 
@@ -167,3 +167,12 @@ nav a {
     margin-bottom: 15px;
 }
 
+.main-content {
+  display: flex;
+  gap: 30px;
+  margin: 20px;
+}
+
+.left-column, .right-column {
+  width: 50%;
+}
